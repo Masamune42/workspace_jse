@@ -1,0 +1,47 @@
+
+REM : Affichage d'un article Stylo 'Bic'
+Article [idArticle=1, reference=BBOrange, marque=Bic, designation=Bic bille Orange, prixUnitaire=1.2, qteStock=20] Stylo [Couleur=Bleu]
+---------------------------------------------------------------
+
+REM : Affichage d'un article Ramette 'Clairefontaine'
+Article [idArticle=2, reference=CRA4S, marque=Clairef, designation=Ramette A4 Sup, prixUnitaire=9.0, qteStock=20] Ramette [grammage=80]
+---------------------------------------------------------------
+
+REM : Affichage du catalogue
+Article [idArticle=1, reference=BBOrange, marque=Bic, designation=Bic bille Orange, prixUnitaire=1.2, qteStock=20] Stylo [Couleur=Bleu]
+Article [idArticle=2, reference=CRA4S, marque=Clairef, designation=Ramette A4 Sup, prixUnitaire=9.0, qteStock=20] Ramette [grammage=80]
+Article [idArticle=3, reference=PlumeS, marque=Stypen, designation=Stylo Plume Stypen, prixUnitaire=5.5, qteStock=20] Stylo [Couleur=jaune]
+Article [idArticle=4, reference=WOBGreen, marque=Waterman, designation=Waterman Orion Bille vert, prixUnitaire=5.5, qteStock=20] Stylo [Couleur=vert]
+Article [idArticle=5, reference=PlumeP, marque=Parker, designation=Stylo Plume Parker, prixUnitaire=5.5, qteStock=5] Stylo [Couleur=noir]
+---------------------------------------------------------------
+
+REM : Affichage de l'article de la premiere ligne du panier
+Article [idArticle=1, reference=BBOrange, marque=Bic, designation=Bic bille Orange, prixUnitaire=1.2, qteStock=20] Stylo [Couleur=Bleu]
+---------------------------------------------------------------
+
+REM : Affichage du panier - Ajout
+Panier : 
+
+ligne 0 :	Ligne [ qte=2, prix=1.2, article=Article [idArticle=1, reference=BBOrange, marque=Bic, designation=Bic bille Orange, prixUnitaire=1.2, qteStock=20] Stylo [Couleur=Bleu]]
+ligne 1 :	Ligne [ qte=13, prix=9.0, article=Article [idArticle=2, reference=CRA4S, marque=Clairef, designation=Ramette A4 Sup, prixUnitaire=9.0, qteStock=20] Ramette [grammage=80]]
+ligne 2 :	Ligne [ qte=12, prix=5.5, article=Article [idArticle=3, reference=PlumeS, marque=Stypen, designation=Stylo Plume Stypen, prixUnitaire=5.5, qteStock=20] Stylo [Couleur=jaune]]
+ligne 3 :	Ligne [ qte=5, prix=5.5, article=Article [idArticle=4, reference=WOBGreen, marque=Waterman, designation=Waterman Orion Bille vert, prixUnitaire=5.5, qteStock=20] Stylo [Couleur=vert]]
+
+Valeur du panier : 212.9
+
+
+---------------------------------------------------------------
+
+REM : Modification du panier
+
+REM : Affichage du panier - Modification
+Panier : 
+
+ligne 0 :	Ligne [ qte=3, prix=1.2, article=Article [idArticle=1, reference=BBOrange, marque=Bic, designation=Bic bille Orange, prixUnitaire=1.2, qteStock=20] Stylo [Couleur=Bleu]]
+ligne 1 :	Ligne [ qte=12, prix=9.0, article=Article [idArticle=2, reference=CRA4S, marque=Clairef, designation=Ramette A4 Sup, prixUnitaire=9.0, qteStock=20] Ramette [grammage=80]]
+ligne 2 :	Ligne [ qte=5, prix=5.5, article=Article [idArticle=4, reference=WOBGreen, marque=Waterman, designation=Waterman Orion Bille vert, prixUnitaire=5.5, qteStock=20] Stylo [Couleur=vert]]
+
+Valeur du panier : 139.1
+
+
+---------------------------------------------------------------
